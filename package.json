@@ -1,11 +1,15 @@
 {
-  "name": "google-play-scraper",
-  "version": "10.1.2",
+  "name": "@srikanthlogic/google-play-scraper",
+  "version": "10.1.3",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
   "description": "scrapes app data from google play store",
   "type": "module",
   "exports": "./index.js",
   "scripts": {
-    "test": "mocha --timeout 5000",
+    "test": "mocha --timeout 15000",
     "lint": "eslint ."
   },
   "repository": {
@@ -23,26 +27,30 @@
     "url": "https://github.com/facundoolano/google-play-scraper/issues"
   },
   "homepage": "https://github.com/facundoolano/google-play-scraper",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
-    "debug": "^3.1.0",
-    "got": "^11.8.6",
-    "memoizee": "^0.4.14",
-    "ramda": "^0.29.0",
-    "tough-cookie": "^4.1.3"
+    "cheerio": "^1.0.0",
+    "debug": "^4.4.3",
+    "got": "^14.6.5",
+    "memoizee": "^0.4.17",
+    "ramda": "^0.32.0",
+    "tough-cookie": "^6.0.0"
   },
   "devDependencies": {
-    "chai": "^4.3.7",
-    "eslint": "^8.46.0",
+    "chai": "^6.2.1",
+    "eslint": "^8.57.1",
     "eslint-config-semistandard": "^17.0.0",
     "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-standard": "^4.1.0",
-    "mocha": "^10.2.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "mocha": "^11.7.5",
+    "nyc": "^17.1.0",
     "promise-log": "^0.1.0",
-    "sinon": "^15.2.0",
+    "sinon": "^21.0.0",
+    "standard-version": "^9.5.0",
     "validator": "^13.9.0"
   }
 }
