@@ -1,13 +1,13 @@
-# google-play-scraper [![workflow](https://github.com/facundoolano/google-play-scraper/actions/workflows/tests.yml/badge.svg)](https://github.com/facundoolano/google-play-scraper/actions/workflows/tests.yml)
+# google-play-scraper [![workflow](https://github.com/srikanthlogic/google-play-scraper/actions/workflows/tests.yml/badge.svg)](https://github.com/srikanthlogic/google-play-scraper/actions/workflows/tests.yml)
 Node.js module to scrape application data from the Google Play store.
 
-⚠️ I don't use or actively maintain this project anymore, other than reviewing community provided PRs. Expect the parser to break when Google Play's layout changes.
+This module is a fork of [google-play-scraper](https://github.com/facundoolano/google-play-scraper) by [facundoolano](https://github.com/facundoolano).
 
 ### Related projects
 
 * [app-store-scraper](https://github.com/facundoolano/app-store-scraper): a scraper with a similar interface for the iTunes app store.
 * [aso](https://github.com/facundoolano/aso): an App Store Optimization module built on top of this library.
-* [google-play-api](https://github.com/facundoolano/google-play-api): a RESTful API to consume the data produced by this library.
+* [google-play-api](https://github.com/srikanthlogic/google-play-api): a RESTful API to consume the data produced by this library.
 
 ## Installation
 ```
