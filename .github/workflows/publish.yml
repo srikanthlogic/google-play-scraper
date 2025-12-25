@@ -18,7 +18,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
 
       - name: Install and build
-        run: npm ci
+        run: npm ci --legacy-peer-deps
 
       - name: Publish to GitHub Packages
         run: npm publish --access public
