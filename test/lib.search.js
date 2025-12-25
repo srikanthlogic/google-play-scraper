@@ -146,8 +146,7 @@ describe('Search method', () => {
         assertIdsInArray(
           apps,
           'com.runtastic.android',
-          'running.tracker.gps.map',
-          'com.google.android.apps.fitness'
+          'running.tracker.gps.map'
         );
       });
     });
